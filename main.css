@@ -1,0 +1,227 @@
+.navbar {
+    height: 10vh;
+    padding-right: 23vh;
+}
+
+.navbar-nav>a{
+    color: rgb(253, 253, 253);
+
+}
+.navbar-nav>a:hover{
+    color: orange;
+
+}
+
+.hero-img {
+    background-image: url(/photos/background-image_short.png);
+    height:50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-txt {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 10vh;
+    color: white;
+
+}
+
+.container {
+
+    display: grid;
+    margin:auto;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    grid-template-columns: 3fr;
+    grid-template-rows:0.4fr 1.2fr 1.2fr 1.2fr 1.2fr;
+    gap: 0em 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        
+        "banner"
+        "show1"
+        "show2"
+        "show3"
+        "show4";
+    width: 100%;
+}
+.banner{
+    height: 6vh;
+}
+.flexbox-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30vh;
+    padding: 4vh;
+    padding-top: vh;
+    border-bottom: 2px solid lightgray;
+    padding-left: 10vh;
+    padding-right: 10vh;
+
+}
+.thumbnail{
+    height:25vh
+}
+.show-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2vh;
+}
+.show-text>h3{
+font-size: 3rem;
+}
+
+.show-text>p{
+    font-size: 1rem;
+}
+
+.banner {
+    grid-area: banner;
+    text-align: center;
+    border: 2px solid gray;
+    padding-left: 12vh;
+    background-color:lightgray
+
+}
+
+.show1 {
+    grid-area: show1;
+    text-align: center;
+}
+
+.show2 {
+    grid-area: show2;
+    text-align: center;
+}
+
+.show3 {
+    grid-area: show3;
+    text-align: center;
+}
+
+.show4 {
+    grid-area: show4;
+    text-align: center;
+}
+
+.footer {
+    background-color: gray;
+    height: 30vh;
+}
+
+.container2 {
+    display: grid;
+    background-color: gray;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    padding: 2vh;
+    gap: 0em 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "map info shows social"
+        "map info1 show1 social1"
+        "map info2 show2 social2"
+        "map info3 show3 social3"
+        "map info4 show4 social4";
+    width: 100%;
+}
+#spo_map{
+    width: 100%;
+    border-radius: 5px;
+}
+.foot-header, .small-footer{
+    color: white;
+    text-align: center;
+}
+.foot-header{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.small-footer, .icon{
+    font-size: 1rem;
+}
+.link{
+    color: white;
+}
+.link:hover{
+    text-decoration: none;
+    color: orange;
+
+}
+#show1 #show #show3 #show4{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content:right;
+}
+.map {
+    grid-area: map;
+    padding: 4vh;
+}
+
+.info {
+    grid-area: info;
+}
+
+.shows {
+    grid-area: shows;
+}
+
+.social {
+    grid-area: social;
+}
+
+.info1 {
+    grid-area: info1;
+}
+
+.info2 {
+    grid-area: info2;
+}
+
+.info3 {
+    grid-area: info3;
+ }
+
+.info4 {
+    grid-area: info4;
+ }
+
+.show1 {
+    grid-area: show1;
+}
+
+.show2 {
+    grid-area: show2;
+}
+
+.show3 {
+    grid-area: show3;
+}
+
+.show4 {
+    grid-area: show4;
+}
+
+.social1 {
+    grid-area: social1;
+}
+
+.social2 {
+    grid-area: social2;
+}
+
+.social3 {
+    grid-area: social3;
+}
+
+.social4 {
+    grid-area: social4;
+}
